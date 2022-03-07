@@ -14,6 +14,7 @@ import Login from "./pages/login/Login";
 function App() {
 
   const admin = JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser.isAdmin;
+  // const admin = true;
 
   return (
     <Router>
